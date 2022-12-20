@@ -1,8 +1,26 @@
 .card{
     background-color: #fafafa;
-    width: 45%;
-    height: 400px;
+    width: 25%;
+    padding: 70px 80px;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 3px 7px 12px -6px rgba(0,0,0,0.75);
+    border-radius: 25px;
 }
-.img{
-    
+.card:hover{
+    border: 1px solid black;
+    box-shadow: 3px 7px 12px 1px rgba(0,0,0,0.75);
+
 }
+.card img{
+    width: 80%;
+    margin-top: 30px;
+}
+.card a{
+    display: block;
+}
+.card h1{
+    font-size: 45px;
+}
+
+
